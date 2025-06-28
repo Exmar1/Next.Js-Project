@@ -1,4 +1,4 @@
-import { Button, Htag, P } from '../../../components'
+import { Button, Htag, P, Tag } from '../../../components'
 
 export default function TestPage() {
 	return (
@@ -13,6 +13,16 @@ export default function TestPage() {
 			<P size='l'>Большой</P>
 			<P>Средний</P>
 			<P size='s'>Маленький</P>
+			<Tag size='s' color='ghost'>
+				Ghost
+			</Tag>
+			<Tag size='m' color='red'>
+				Red
+			</Tag>
+			<Tag size='s' color='green'>
+				Green
+			</Tag>
+			<Tag color='primary'>Примари</Tag>
 		</>
 	)
 }
